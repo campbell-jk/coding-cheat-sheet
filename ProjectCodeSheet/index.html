@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Renmir's Cheat Sheet for Coding</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div id="top">
+            <h1>Renmir's Cheat Sheet for Coding</h1>
+            <p><em>A growing list of terms and concepts learned while studying with <a href="www.codecademy.com">Codecademy</a></em>.<br>
+            </p>
+            <p class="toc">
+                <a href="#intro">Introduction to HTML</a><br>
+                <a href="#doc-standards">HTML Document Standards</a><br>
+                <a href="#html-tables">HTML Tables</a>
+            </p>
+        </div>
+    </header>
+    <h2 id="intro">Introduction to HTML</h2>
+    <p>
+        HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.<br>
+        Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.<br>
+        HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent
+        element.<br>
+    </p>
+    <div>
+        <table>
+        <thead>
+            <td colspan="3">Introduction to HTML</td>
+        </thead>        
+        <tbody>
+            <tr>
+                <td style="width: 20%">Tag</td>
+                <td style="width: 30%">Name</td>
+                <td style="width: 50%;">Description</td>
+            </tr>
+            <tr>
+                <td>&lt;body&gt;</td>
+                <td>Body</td>
+                <td>Any visible content should be placed within the opening and closing body tags.</td>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt; to &lt;h6&gt;</td>
+                <td>Headings and Sub-Headings</td>
+                <td>Headings and sub-headings tags are used to enlarge text, 1 being the largest and 6 being the
+                    smallest.</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;<br> &lt;span&gt;<br> &lt;div&gt;</td>
+                <td>Paragraph<br>Span<br>Division<br></td>
+                <td>These tags specify text or blocks.</td>
+            </tr>
+            <tr>
+                <td>&lt;em&gt;<br> &lt;strong&gt;</td>
+                <td><em>emphasis</em><br> <strong>strong</strong></td>
+                <td>The <em>Emphasis</em> and <strong>Strong</strong> tags are used to emphasize text.</td>
+            </tr>
+            <tr>
+                <td>&lt;br&gt;</td>
+                <td>Line Break</td>
+                <td>HTML does not read white space. The line break tag is used to create intentional spacing in
+                    elements. This element is self closing.</td>
+            </tr>
+            <tr>
+                <td>&lt;ol&gt;<br> &lt;ul&gt;</td>
+                <td>Ordered List<br>Unordered List</td>
+                <td>Creates either a numbered (ordered) or unordered (bulleted) list.</td>
+            </tr>
+            <tr>
+                <td>&lt;li&gt;</td>
+                <td>List Item</td>
+                <td>When used in either an ordered or unordered list, the list item will display with the appropriate
+                    number or bullet for the format.</td>
+            </tr>
+            <tr>
+                <td>&lt;img&gt;<br>&lt;video&gt;</td>
+                <td>Image<br>Video</td>
+                <td>Images and videos can be added by linking to an existing source.</td>
+            </tr>            
+        </tbody>
+        </table>
+    </div>
+    <div>
+        <h2 id="doc-standards">HTML Document Standards</h2>
+        <h6 class="jump-to-top"><a href="#top">Jump to Top</a></h6>
+        <p>While some tags have a very specific purpose, such as image and video tags, most tags are used to describe the content that they surround, which helps us modify and style our content later. There are seemingly infinite numbers of tags to use. Knowing when to use each one is based on how you want to describe the content of your HTML. Descripte, well-chosen tags are one key to high-quality web development. A full list of available HTML tags can be found in <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Mozilla documentation</a>.<br><br>
+        Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browers. Indentation also helps make code easier to read, it makes parent-child relationships visible.
+        </p>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <td colspan="3">HTML Document Standards</td>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="width: 20%">Tag</td>
+                <td style="width: 30%">Name</td>
+                <td style="width: 50%;">Description</td>
+            </tr>
+            <tr>
+                <td>&lt;!DOCTYPE html&gt;</td>
+                <td>Documentation Declaration for HTML</td>
+                <td>This declaration should always be the first line of code in your HTML files. This lets the browser know what
+                version of HTML to expect.</td>
+            </tr>
+            <tr>
+                <td>&lt;html&gt;</td>
+                <td>HTML Element</td>
+                <td>This element contains all of your HTML code</td>
+            </tr>
+            <tr>
+                <td>&lt;head&gt;</td>
+                <td>Head Element</td>
+                <td>Information about the web page, like the title, belongs within the head of the page.</td>
+            </tr>
+            <tr>
+                <td>&lt;title&gt;</td>
+                <td>Title Element</td>
+                <td>You can add a title to your web page by using the title element, inside of the head.<br>A webpage's title appears in a browser's tab.</td>
+            </tr>
+            <tr>
+                <td>&lt;!-- comment --&gt;</td>
+                <td>Comment Syntax</td>
+                <td>Using this syntax, comments can be written in HTML.</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h2 id="html-tables">HTML Tables</h2>
+        <h6 class="jump-to-top"><a href="#top">Jump to Top</a></h6>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <td colspan="3">HTML Tables</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="width: 20%">Tag</td>
+                    <td style="width: 30%">Name</td>
+                    <td style="width: 50%;">Description</td>
+                </tr>
+                <tr>
+                    <td>&lt;table&gt;</td>
+                    <td>Table Element</td>
+                    <td>The table element <em>creates</em> a table.</td>
+                </tr>
+                <tr>
+                    <td>&lt;tr&gt;</td>
+                    <td>Table Row Element</td>
+                    <td>The table row element adds rows to a table. The &lt;td&gt; element is used to insert cells.</td>
+                </tr>
+                <tr>
+                    <td>&lt;td&gt;</td>
+                    <td>Table Data Element</td>
+                    <td>Used to add cells of data to a table row.</td>
+                </tr>
+            </tbody>
+    </div>
+</body>
+</html>

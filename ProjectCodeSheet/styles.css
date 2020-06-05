@@ -1,0 +1,56 @@
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#top {
+  background-color: #304A78;
+  margin: auto;
+  border-radius: 15px;
+}
+
+a {
+  color: #57BDA2;
+}
+
+body {
+  color: #DCB13C;  
+  text-align: center;
+  background-color: #2C3259;
+  font-family: 'Open Sans', sans-serif;
+}
+
+thead {
+  text-align: center;
+  background-color: #2493A2;
+  color: white;
+}
+
+
+table {
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #57BDA2;  
+  border-radius: 5px;
+}
+
+.jump-to-top {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
